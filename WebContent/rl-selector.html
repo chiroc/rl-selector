@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>rl-selector</title>
+<link href="rl-selector.1.0/rl-selector.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+</head>
+<body>
+
+<!-- /////// @DEMO /////// -->
+<div class="control-group mgnl-80" id="rl-selector-demo">
+</div>
+<!-- ////////#DEMO////// -->
+
+<!-- json2.js just for ie -->
+<script type="text/javascript" src="json2.js"></script>
+<script type="text/javascript" src="rl-selector.1.0/rl-selector.js"></script>
+
+<script type="text/javascript">
+var l_data = {'k1':'北京市','k2':'天津市','k3':'河北省'};
+var r_data = {'k2':'天津市','k3':'河北省'};
+
+$(document).ready(function() {
+	new rlSelector('rlSvlt', 'rl-selector-demo', l_data,r_data,'l-title','r-title',true);
+});
+</script>
+</body>
+</html>

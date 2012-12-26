@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.rl-select select {
+	height: 240px !important;
+	width: 200px;
+	vertical-align: middle;
+	border: 1px solid rgb(187, 187, 187);
+	color: rgb(85, 85, 85);
+	display: inline-block;
+}
+.rl-select select optgroup {
+	font-style: normal;
+	font-weight: bold;
+}
+.rl-select a:hover {
+    color: rgb(0, 85, 128);
+    text-decoration: underline;
+}
+.rl-select a:hover, .rl-select a:active {
+    outline: 0px none;
+}
+.rl-select a {
+    color: rgb(0, 136, 204);
+    text-decoration: none;
+}
